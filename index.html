@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Results Summary Component</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="result-container">
+        <h2 class="result-title">Your Result</h2>
+        <div class="circle">
+          <div class="score">76</div>
+          <div class="total">of 100</div>
+        </div>
+        <div class="result-text">
+          <h3>Great</h3>
+          <p>
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+
+      <div class="summary-container">
+        <h2 class="summary-title">Summary</h2>
+
+        <div class="category reaction">
+          <div class="category-icon-name">
+            <img src="assets/images/icon-reaction.svg" alt="Reaction Icon" />
+            <span class="category-name">Reaction</span>
+          </div>
+          <div class="category-score">80 <span>/ 100</span></div>
+        </div>
+
+        <div class="category memory">
+          <div class="category-icon-name">
+            <img src="assets/images/icon-memory.svg" alt="Memory Icon" />
+            <span class="category-name">Memory</span>
+          </div>
+          <div class="category-score">92 <span>/ 100</span></div>
+        </div>
+
+        <div class="category verbal">
+          <div class="category-icon-name">
+            <img src="assets/images/icon-verbal.svg" alt="Verbal Icon" />
+            <span class="category-name">Verbal</span>
+          </div>
+          <div class="category-score">61 <span>/ 100</span></div>
+        </div>
+
+        <div class="category visual">
+          <div class="category-icon-name">
+            <img src="assets/images/icon-visual.svg" alt="Visual Icon" />
+            <span class="category-name">Visual</span>
+          </div>
+          <div class="category-score">73 <span>/ 100</span></div>
+        </div>
+
+        <button>Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
