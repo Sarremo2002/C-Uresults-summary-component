@@ -172,9 +172,13 @@ button:hover {
   );
 }
 
-@media (min-width: 375px) {
+@media (max-width: 650px) {
   .card {
     flex-direction: column;
     width: 100%;
+  }
+
+  .result-container {
+    border-radius: 0 0 30px 30px;
   }
 }
